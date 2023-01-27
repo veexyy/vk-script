@@ -71,9 +71,9 @@ setInterval(() => {
             const insultsWord = insults[Math.floor(Math.random() * insults.length)]; 
         // проверка пользователя
             if (lastElementInArr.innerHTML = lastElementInArr) {
-                inputField.innerHTML = insultsWord; // inputField.innerHTML = 'Влад Чикулаев ' + insultsWord;
+                inputField.innerHTML = insultsWord;
                 sendButtonFromArray.click();
             }  else{
-                console.log('not gay');
+                console.log('something went wrong');
             }
 }, 1000);
